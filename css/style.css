@@ -87,7 +87,10 @@ h3{
 }
 /* style for the font awesome */
 .list-inline-item{
-    padding: 10px;
+    padding: 5px;   
+}
+#iconLinks{
+    float: right;
 }
 /* style for copyright */
 #copyright{
@@ -99,8 +102,5 @@ h3{
         text-align: center;
         padding: 25px;
         margin: 10%;
-    }
-    #contactSection{
-        text-emphasis: center;
-    }   
+    } 
 }
