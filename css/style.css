@@ -95,16 +95,23 @@ h3{
     margin-left: -15px;
 }
 
+.section-heading text-black{
+    padding-right: 500px;
+}
 
+.list{
+    padding-left: 120px;
+}
 
 /* style for responsive website iphone size */
-/* @media screen and (max-width: 768px) {    
-    #skillsDiv {
-        text-align: center;
-        padding: 25px;
-        margin: 10%;
+@media screen and (max-width: 768px) {    
+    .list {
+        padding-left: 140px;
     } 
-} */
+    .section-heading text-black{
+        padding-right: 5px;
+    }
+
 
 
 
