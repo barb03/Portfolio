@@ -13,157 +13,372 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="./images/favicon.png" />       
     </head>
-    <body>          
-        <nav class="navbar fixed-top justify-content-end">
-            <ul> 
-                <li><a class="nav-link" href="https://docs.google.com/document/d/19wm0tq2T5VzHxPOoNRV6VCJsx1xKDM_1otBtp-is9TQ/edit?usp=sharing" target="_blank">Resume</a></li>          
-                <li><a class="nav-link" href="#contactSection">Contact</a></li>
-                <li><a class="nav-link" href="#portfolioSection">Portfolio</a></li>
-                <li><a class="nav-link" href="#aboutSection">About</a></li>
-                <li><a class="nav-link" href="#top">Home</a></li>
-            </ul>
-        </nav> <!-- end nav bar -->
-        <div class="row">
-            <div class="col-md-5" id="photoDiv">
-                <img class="profilePic" src="images/barb.jpg" alt="Barbara Wright">
-            </div>  <!-- end photoDiv -->
-            <div class-"col-md-7" id="skillsDiv">
-                <h1>Barbara Wright</h1>
-                <h2>Web Developer</h2>
-                <div class="row" id="skills">
-                    <div class="col-md-6">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>Bootstrap</p>
-                        <p>JavaScript</p>
-                        <p>JQuery</p>
-                        <p>Node.js</p>
-                    </div> <!-- end skill div -->
-                    <div class="col-md-6">
-                        <p>MySQL</p>
-                        <p>Firebase</p>
-                        <p>C++</p>
-                        <p>Java</p>
-                        <p>GitHub</p>
-                        <p>Asp</p>
-                    </div>  <!-- end skill div -->
-                </div>  <!-- end row skills -->                  
-            </div> <!-- end skillsDiv -->       
-        </div> <!-- end row -->       
-         
-        <section class="about" id="aboutSection">
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <h3>About me</h3>
-                <div class="row">              
-                    <div class="col-md-12" id="aboutMe">
-                        <p>I am United States Navy Veteran that is professional and driven with over 23 years of professional experience 
+                <img class="rounded-circle" width="60" height="auto" src="images/barb.jpeg">
+                <a class="navbar-brand" href="#page-top" style="margin-left:0.5rem;">Barbara Wright</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <header class="masthead text-center text-black d-flex">
+            <div class="container my-auto" id="home">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-uppercase">Portfolio</h2>
+                        <hr>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <p class="text-faded mb-5">US Navy Veteran</p>
+                        <p class="text-faded mb-5">Professional | Driven | Coding Enthusiast <br>
+                            Seeking new challenges and opportunities. <br>
+                            </p>
+                        <a class="btn btn-primary btn-xl" href="#about">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading text-black">Short Background</h2>
+                        <hr class="light my-4">
+                        <br>
+                        <br>
+                        <p class="text-faded mb-4">
+                            I am United States Navy Veteran that is professional and driven with over 10 years of professional experience 
                             in leadership and management supporting military aviation.  A project leader with a proven military track 
                             record of successfully completing technical projects on time and under budget.  I have a Bachelor’s with 
-                            Embry-Riddle Aeronautical University with a minor in Aviation Safety.</p>
-                        <p>I recently graduated Park University with a Bachelor’s degree in Computer Science.  I am now attending The 
+                            Embry-Riddle Aeronautical University with a minor in Aviation Safety.
+                            I recently graduated Park University with a Bachelor’s degree in Computer Science.  I am now attending The 
                             University of Texas Coding Boot Camp for full stack web development.  I am seeking a junior full stack web 
-                            development position.</p>
-                        <p>I am passionate about learning more about web development.  One of my favorite quotes is </p>
-                        <p align="center">“Never Give Up, Never Surrender!”</p>
-                        <p>Some of my hobbies include learning more computer programming languages, animal rescue and 
-                            racing a vintage formula vee with CVAR (Corinthian Vintage Auto Racing).</p>
-                    </div>  <!-- end aboutMe div -->
-                </div>  <!-- end row -->
-            </div> <!-- end container div -->
-        </section> <!-- end aboutSection -->
-        <br><br><br>
-        <section class="portfolio" id="portfolioSection">
+                            development position.
+                            I am passionate about learning more about web development.  One of my favorite quotes is 
+                            “Never Give Up, Never Surrender!”   
+                        </p>
+                        <a class="btn btn-primary btn-xl" href="#skills">View Skills</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
             <div class="container">
-                <h3>Portfolio</h3>  
-                <br>              
-                <div class="row">                                 
-                    <div class="col-md-4">                            
-                        <img class="portfolioImage" src="images/wordGuess.png" alt="Word Guess Game">
-                        <br>
-                        <a class="portfolioName" href="https://barb03.github.io/Word-Guess-Game/" target="_blank">Word Guess Game</a>
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/Word-Guess-Game" target="_blank">Word Guess Game Code</a>
-                    </div>  <!-- end portfolioImage Word Guess Game-->
-                    <div class="col-md-4">                            
-                        <img class="portfolioImage" src="images/trivia.png" alt="Trivia Game">
-                        <br>
-                        <a class="portfolioName" href="https://barb03.github.io/TriviaGame/" target="_blank">Trivia Game</a> 
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/TriviaGame" target="_blank">Trivia Game Code</a>                          
-                    </div>  <!-- end portfolioImage Trivia Game-->
-                    <div class="col-md-4">                            
-                        <img class="portfolioImage" src="images/crystal.png" alt="Crystal Game">
-                        <br>
-                        <a class="portfolioName" href="https://barb03.github.io/unit-4-game/" target="_blank">Crystal Game</a> 
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/unit-4-game" target="_blank">Crystal Game Code</a>                          
-                    </div> <!-- end portfolioImage Crystal Game -->                                    
-                </div> <!-- end row -->
-                <br><br>
-                <div class="row">                                 
-                    <div class="col-md-4">                            
-                        <img class="portfolioImage" src="images/gifTastic.png" alt="GifTastic">
-                        <br>
-                        <a class="portfolioName" href="https://barb03.github.io/GifTastic/" target="_blank">GifTastic</a>
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/GifTastic" target="_blank">GifTastic Code</a>
-                    </div>  <!-- end portfolioImage GifTastic -->
-                    <div class="col-md-4">
-                        <img class="portfolioImage" src="images/liri.png" alt="Liri">
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/liri-node-app" target="_blank">Liri</a>
-                        <br>
-                        <a class="portfolioName" href="https://drive.google.com/file/d/1tXZIIKPNTYDUEDjG9mza5cDos6ngSn7K" target="_blank">Liri Video</a>
-                    </div>  <!-- end portfolioImage Liri -->                    
-                    <div class="col-md-4">                            
-                        <img class="portfolioImage" src="images/forkOff.png" alt="Fork Off">
-                        <br>
-                        <a class="portfolioName" href="https://barb03.github.io/TeamOne-ProjectOne/" target="_blank">TeamOne-ProjectOne</a>
-                        <br>
-                        <a class="portfolioName" href="https://github.com/barb03/TeamOne-ProjectOne" target="_blank">TeamOne-ProjectOne Code</a>                           
-                    </div>  <!-- end portfolioImage TeamOne-ProjectOne -->                     
-                </div>  <!-- end row -->                                
-            </div>  <!-- end container --> 
-        </section>  <!-- end portfolioSection -->
-        <br><br>
-        <section class="contact" id="contactSection">
-            <div class="container">
-                <br>
-                <h3>Contact Me</h3>
-                <br><br>
                 <div class="row">
-                    <div class="col-md-4">
-                        <i class="fas fa-envelope-open">&nbsp;&nbsp;barb03@ureach.com</i>                                              
-                    </div>  <!-- end email div -->
-                    <div class="col-md-4">
-                        <i class="fas fa-mobile">&nbsp;&nbsp;757-636-7306</i> 
-                    </div> <!-- end phone div -->
-                    <div class="col-md-4">                    
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.facebook.com/MustangSaliee" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>  <!-- end Facebook link -->                          
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/barbara-wright" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </li>  <!-- end Linkedin link -->
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/barb03" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>  <!-- end GitHub link -->                          
-                        </ul>  <!-- end external links ul -->                    
-                    </div>  <!-- end external links div -->                  
-                </div> <!-- end row -->
-                <div class="row">                        
-                    <div class="col-md-12" id="copyright">
-                        <p>Copyright &copy; 2018 Barbara Wright</p>
-                    </div>  <!-- end copyright div -->
-                </div>  <!-- end row -->
-            </div>  <!-- end container -->
-        </section>  <!-- end contactSection -->   
-    </body>   <!--end of body-->
-</html>  <!--end of html-->
+                    <div class="col-md-12 text-center">
+                        <h4 class="section-heading">My Skills</h4>
+                        <hr>
+                    </div>
+                </div>            
+                <div class="row" style="margin-top: 0;">
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/htmlcss.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">HTML/CSS</h5>
+                        </div>
+                    </div>               
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/js.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Javascript</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/jquery.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">JQuery</h5>
+                        </div>
+                    </div>              
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/nodejs.png" style="width: 100px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Node.js</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/mysql.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">MySQL</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/sequelize.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Sequelize</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/firebase.png" style="width: 100px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Firebase</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/mongo.jpeg" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">MongoDB</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/git.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">GitBash</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/handlebars.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Handlebars.js</h5>
+                        </div>
+                    </div>   
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/java.png" style="width: 100px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">Java</h5>
+                        </div>
+                    </div> 
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i><img id="hjc" src="images/cplus.png" style="width: 80px; height: 80px; border-radius: 10%;"></i>
+                            <h5 class="mb-3">C++</h5>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+            <div class="container" style="margin-top:1.5rem;">
+                <div class="col-lg-8 mx-auto text-center">
+                    <a class="btn btn-primary btn-xl" href="#projects">Projects</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading text-black">My Projects</h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="margin-top: 0;">
+                    <div class="col-lg-6 col-md-6 text-center d-flex align-items-stretch" style="margin-top:1.5rem;">
+                        <div class="card">
+                            <img class="card-img-top" src="images/forkOff.png" alt="Fork Off App">
+                            <div class="card-body">
+                                <h5 class="card-title">Fork Off</h5>
+                                <p class="card-text">
+                                    Fork Off is an app for two people to see a list of places to eat in the area and select a
+                                    thumbs up or thumbs down to help decide where to eat.  When a restaurant has two thumbs up
+                                    then a match is shown with a map to the restaurant.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                <p class="card-text">Tech: Google maps and Zomato API's, HTML, CSS Javascript, JQuery, Animation, 
+                                    and Firebase</p>
+                                    <br>                                   
+                                <a href="https://barb03.github.io/Fork-Off/" target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/barb03/TeamOne-ProjectOne" target="_blank" style="margin-left:1.5rem;" class="btn btn-primary">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center d-flex align-items-stretch" style="margin-top:1.5rem;">
+                        <div class="card">
+                            <img class="card-img-top" src="images/liri.png" alt="Liri App">
+                            <div class="card-body">
+                                <h5 class="card-title">Liri App</h5>
+                                <p class="card-text">Liri is an app that is like the iPhone Siri.  It is a Language Interpretation and 
+                                    Recognition Interface.  Liri takes in parameters and gives back data.  The commands for Liri are: 
+                                    my-tweets returns a list of Twitter tweets, spotify-this-song returns song data,
+                                    movie-this returns movie data, do-what-it-says returns command and data from a text file,
+                                    and concert-this returns artist venue data.
+                                </p>
+                                <p class="card-text">Tech: Node.js, JavaScript, Spotify API, Twitter API, Bands in Town API and
+                                    OMDB API.  NPM Packages include spotify-web-api-node, dotenv, twitter, request, moment, chalk 
+                                    and axios.</p>
+                                <a href="https://drive.google.com/file/d/1tXZIIKPNTYDUEDjG9mza5cDos6ngSn7K"  target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Project Video</a>
+                                <a href="https://github.com/barb03/liri-node-app" target="_blank" style="margin-left:1.5rem;" class="btn btn-primary">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <img class="card-img-top" src="images/gifTastic.png" alt="GifTastic">
+                            <div class="card-body">
+                                <h5 class="card-title">GifTastic</h5>
+                                <p class="card-text">Giftastic uses the Gifphy API to make a dynamic web page that populates
+                                    with gifs of your choice.  The theme for the app is Horror Movies.  You can add your own movie
+                                    to the list and then watch or pause the gifs that are shown.  The gifs have ratings that are 
+                                    displayed under the gif.
+                                </p>
+                                <p class="card-text">Tech: Gifphy API, HTML, CSS, JavaScript and JQuery</p>
+                                <a href="https://barb03.github.io/GifTastic/" target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/barb03/GifTastic" target="_blank" class="btn btn-primary">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-lg-4 col-md-6 text-center d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <img class="card-img-top" src="images/trivia.png" alt="Trivia Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia Game</h5>
+                                <p class="card-text">A basic trivia game with 20 questions.  You have a time limit to complete the game
+                                    and then your score is shown either when time runs out or all the questions and been answered
+                                    and the submit button is clicked.</p>
+                                    <br>
+                                    <br>
+                                <p class="card-text">Tech: HTML, CSS and JavaScript</p>
+                                <br>
+                                <a href="https://barb03.github.io/TriviaGame/" target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/barb03/TriviaGame" target="_blank" class="btn btn-primary">Git Repo</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-4 col-md-6 text-center  d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <img class="card-img-top" src="images/wordGuess.png" alt="Word Guess Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Word Guess Game</h5>
+                                <p class="card-text">This game has SciFi movies to guess.  When a correct movie is guessed then it will show an image and play
+                                    the movie theme or quote.  You can have up to 6 wrong letters and then the game is over.</p>
+                                <br>
+                                <br>
+                                <p class="card-text">Tech: HTML, CSS, JavaScript</p>
+                                <br>
+                                <a href="https://barb03.github.io/Word-Guess-Game/" target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/barb03/Word-Guess-Game" target="_blank" style="margin-right:1.5rem;" class="btn btn-primary">Git Repo</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="margin-top: 0;">
+                    <div class="col-lg-3 text-center  d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">FriendFinder</h5>
+                                <p class="card-text">Friend Finder app to find your Disney friend.  Matches are made with the answers to a list of questions
+                                    This app is deployed using Heroku.  Tech used: GET and POST routes, HTML, CSS and JavaScript.
+                                </p>
+                                <a href="https://friendfinder55.herokuapp.com/" target="_blank" class="card-link">Project</a>
+                                <a href="https://github.com/barb03/friendFinder" target="_blank" class="card-link">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center  d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal Game</h5>
+                                <p class="card-text">In this game you are given a number to match with 4 crystals.  You will not know the value of each crystals
+                                    until it is selected.  Tech used: HTML, CSS and JavaScript.
+                                </p>
+                                <br>
+                                <a href="https://barb03.github.io/unit-4-game/" target="_blank" class="card-link">Project</a>
+                                <a href="https://github.com/barb03/unit-4-game" target="_blank" class="card-link">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center  d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">bAmazon</h5>
+                                <p class="card-text">A program that uses MySQL and MySQL Workbench along with Node.js
+                                    Tech Used: Node.js, MySQL, MySQL Workbench and NPM Packages.
+                                </p>
+                                <br>
+                                <a href="https://drive.google.com/file/d/196gHdNZ5L7ejl3urYmHj4Lppyoja8TJ9/view" target="_blank" class="card-link">Project Video</a>
+                                <a href="https://github.com/barb03/bamazon" target="_blank" class="card-link">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center  d-flex align-items-stretch" style="margin-top:2rem;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">EatDaBurger</h5>
+                                <p class="card-text">This app lets you make a list of burgers to try.  Once you have tried a burger then you can
+                                    mark it as devoured.  Tech Used: MySQL, Node, Express, Handlebars and a homemade ORM.
+                                </p>
+                                <a href="https://evening-taiga-48090.herokuapp.com/" target="_blank" class="card-link">Project</a>
+                                <a href="https://github.com/barb03/Burger" target="_blank" class="card-link">Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top:3rem;">
+                <div class="col-lg-8 mx-auto text-center">
+                    <a class="btn btn-primary btn-xl" href="#contact">Contact</a>
+                </div>
+            </div>            
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Contact Info</h2>
+                        <hr class="my-4">
+                        <p class="mb-5"></p>                
+                        <div class="row text-center" style="margin-top: 0;">
+                            <div class="col-lg-4 ml-auto text-center">
+                                <i class="fab fa-linkedin fa-3x mb-3 sr-contact-2"></i>
+                                <p><a href="www.linkedin.com/in/barbara-wright" target="_blank"> Linkedin</a></p>
+                            </div>
+                            <div class="col-lg-4 text-center">
+                                <i class="fab fa-github fa-3x mb-3 sr-contact-2"></i>
+                                <p><a href="https://github.com/barb03" target="_blank"> GitHub <br></a></p>
+                            </div>
+                            <div class="col-lg-4 mr-auto text-center">
+                                <i class="fas fa-mail-bulk fa-3x mb-3 sr-contact-2"></i>
+                                <p><a href="mailto:barb03@ureach.com"><span style="unicode-bidi:bidi-override; direction: rtl;">moc.hcaeru@30brab</span></a></p>
+                            </div>
+                        </div>            
+                        <div class="row text-center" style="margin-top: 0;">
+                            <div class="col-lg-4 ml-auto text-center" style="margin-top:2rem;">
+                                <i class="far fa-file-pdf fa-3x mb-3 sr-contact-2"></i>
+                                <p><a href="https://drive.google.com/file/d/1G420g0HaJNk1YdDIqyBfCVl4iwZTPH5V/view?usp=sharing" target="_blank"> Resume <br></a></p>
+                            </div>
+                            <div class="col-lg-4 mr-auto text-center" style="margin-top:2rem;">
+                                <!-- <i class="fab fa-github fa-3x mb-3 sr-contact-2"></i>
+                                <p><a href="38086201+barb03@users.noreply.github.com" target="_blank"> Github Email <br></a></p> -->
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </section>           
+    
+    </body>    
+</html>
