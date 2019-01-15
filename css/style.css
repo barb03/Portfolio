@@ -5,17 +5,15 @@ html{
 
 /* body background image */
 body{
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/blue.jpg");   /* to reduce opacity on image */
+    background-image:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+        url("../images/background2.jpg");   /* to reduce opacity on image */
     background-repeat:no-repeat;
     background-size:cover;    
 }
+/* linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  */
 
 /* styles for navbar */
 .navbar-light .navbar-nav .nav-link {
-    color: black;
-}
-
-href{
     color: black;
 }
 
@@ -142,7 +140,16 @@ h3{
 
 .list{
     padding-left: 120px;
-}    
+}  
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #0040ff;
+}
+
 
     /* When the screen is less than 768 pixels wide, hide all links.  Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 768px) {
