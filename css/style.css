@@ -106,10 +106,10 @@ h3{
 }
 
 /* style for portfolio images */
-.portfolioImage{
-    width: 300px;
+/* .card-img-top{
+    width:  100%;
     height: auto;     
-}
+} */
 
 /* style for the font awesome */
 .list-inline-item{
